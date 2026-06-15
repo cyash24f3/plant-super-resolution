@@ -2,7 +2,7 @@
 title: Plant Leaf Super Resolution
 emoji: 🌿
 colorFrom: green
-colorTo: leaf
+colorTo: gray
 sdk: docker
 app_port: 7860
 pinned: false
