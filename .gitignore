@@ -1,0 +1,44 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual envs ──
+.venv/
+venv/
+env/
+
+# ── IDE ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── ML artefacts ──
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
+checkpoints/
+weights/
+
+# ── HuggingFace cache ──
+.cache/
+
+# ── Docker ──
+.dockerignore
+
+# ── Misc ──
+*.log
+.env
